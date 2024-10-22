@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="author" content="ocaio">
+        <meta name="description" content="Página de exercicio">
+        <link  rel="stylesheet" href="./main.css">
+        <title>Integrando HTML com JavaScript</title>
+    </head>
+    <body>
+        <nav>
+            <div class="container">
+                <h1>Integrando HTML com JavaScript</h1>
+                <h3>Validação no JavaScript</h3>
+                <form id="form-confirm">
+                    <label for="A"><b>Valor_A</b></label>
+                    <input type="number" id="valor-a" required placeholder="Digite o valor A" />
+                    <label for="B"><b>Valor_B</b></label>
+                    <input type="number" id="valor-b" required placeholder="Digite o valor B" />
+                    <button type="submit">Validar</button>
+                </form>
+                <p class="error-message">
+                    Epa! O Valor B PRECISA ser maior que o Valor A
+                </p>
+                <p class="success-message">
+                    "Formulario enviado com SUCESSO! Parabéns! <b>O ValorA menor que ValorB!</b>"
+                </p>
+            </div>
+        </nav> 
+            <script src="./main.js"></script>
+        </body>
+</html>
